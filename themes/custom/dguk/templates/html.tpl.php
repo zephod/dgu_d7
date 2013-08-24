@@ -31,14 +31,14 @@
 
       $('.panel-pane').addClass('boxed');
 
-      $('.panel-2col .panel-col-first').addClass('span8')'panel-col-first');
-      $('.panel-2col .panel-col-last').addClass('span4')'panel-col-last');
-      $('.panel-2col').addClass('row-fluid')'panel-2col');
+      $('.panel-2col .panel-col-first').addClass('span8');
+      $('.panel-2col .panel-col-last').addClass('span4');
+      $('.panel-2col').addClass('row-fluid');
 
-      $('.panel-3col-33 .panel-col-first').addClass('span4')'panel-col-first');
-      $('.panel-3col-33 .panel-col').addClass('span4')'panel-col');
-      $('.panel-3col-33 .panel-col-last').addClass('span4')'panel-col-last');
-      $('.panel-3col-33').addClass('row-fluid')'panel-3col-33');
+      $('.panel-3col-33 .panel-col-first').addClass('span4');
+      $('.panel-3col-33 .panel-col').addClass('span4');
+      $('.panel-3col-33 .panel-col-last').addClass('span4');
+      $('.panel-3col-33').addClass('row-fluid');
 
       var navbar = '\
   <ul id="dgu-nav" class="nav">\
