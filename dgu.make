@@ -9,6 +9,7 @@ projects[apachesolr][subdir] = "contrib"
 projects[apachesolr_autocomplete][subdir] = "contrib"
 ; In review patch to apachesolr_autocomplete for autocompleting with filters applied.
 projects[apachesolr_autocomplete][patch][] = "http://drupal.org/files/1444038-custom-page-autocomplete-with-panels.patch"
+projects[apachesolr_panels][subdir] = "contrib"
 
 projects[facetapi][subdir] = "contrib"
 
@@ -30,8 +31,12 @@ projects[features][subdir] = "contrib"
 projects[views][version] = "3.5"
 projects[views][subdir] = "contrib"
 
-projects[link][version] = "1.0"
+projects[link][version] = "1.1"
 projects[link][subdir] = "contrib"
+projects[linkchecker][version] = "1.1"
+projects[linkchecker][subdir] = "contrib"
+projects[extlink][version] = "1.13"
+projects[extlink][subdir] = "contrib"
 
 projects[email][version] = "1.2"
 projects[email][subdir] = "contrib"
@@ -123,6 +128,13 @@ projects[composer_manager][subdir] = "contrib"
 
 projects[panels][version] = "3.3"
 projects[panels][subdir] = "contrib"
+
+projects[services][version] = "3.5"
+projects[services][subdir] = "contrib"
+projects[services_views][version] = "1.0-beta2"
+projects[services_views][subdir] = "contrib"
+
+projects[libraries][subdir] = "contrib"
 
 projects[wysiwyg][type] = "module"
 projects[wysiwyg][download][type] = "git"
