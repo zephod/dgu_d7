@@ -16,7 +16,11 @@ projects[facetapi][subdir] = "contrib"
 projects[strongarm][subdir] = "contrib"
 projects[diff][subdir] = "contrib"
 projects[token][subdir] = "contrib"
+
+projects[pathauto][version] = "1.2"
 projects[pathauto][subdir] = "contrib"
+# Prevent losing manual aliases with node_save() calls https://drupal.org/node/936222
+projects[pathauto][patch][] = "https://drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch"
 
 projects[admin_menu][version] = "3.0-rc4"
 projects[admin_menu][subdir] = "contrib"
@@ -25,6 +29,8 @@ projects[module_filter][version] = "1.7"
 projects[module_filter][subdir] = "contrib"
 
 projects[ctools][subdir] = "contrib"
+# Patch prevents ctools from running filter_xss_admin on an un-rendered array.
+projects[ctools][patch][] = "http://drupal.org/files/ctools-1925018-61.patch"
 
 projects[features][subdir] = "contrib"
 
@@ -128,6 +134,9 @@ projects[composer_manager][subdir] = "contrib"
 
 projects[panels][version] = "3.3"
 projects[panels][subdir] = "contrib"
+
+projects[context][version] = "3.0-beta7"
+projects[context][subdir] = "contrib"
 
 projects[services][version] = "3.5"
 projects[services][subdir] = "contrib"
